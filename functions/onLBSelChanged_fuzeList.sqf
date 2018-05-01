@@ -3,7 +3,7 @@ params ["_control","_index"];
 //Generate globals
 itc_land_selectedFuzeIndex = _index;
 
-itc_land_fuzeMode = lbData [_control,_index];
+itc_land_fuzeMode = _control lbData _index;
 
 private _fuzeValues = 0;
 
