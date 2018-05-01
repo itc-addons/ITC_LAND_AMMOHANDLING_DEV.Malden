@@ -1,0 +1,7 @@
+//class ITC_ARTY_RscText;
+//class ITC_ARTY_RscListBox;
+//class ITC_ARTY_RscButton;
+//class ITC_ARTY_RscComboBox;
+//class ITC_ARTY_RscTextBox;
+#include "itc_land_classes.hpp"
+#include "gunners_dialog.hpp"

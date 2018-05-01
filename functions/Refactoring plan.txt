@@ -1,0 +1,24 @@
+Ammohandler Dialog
+	onLoad-ammoList -> populate ammo list
+
+	
+	onLoad-Dialog ->
+		hide:
+			Time input and label
+			Guidance inputs
+		set gun status
+		recall last selected item in ammo list, if no longer there, or no selection exists yet select 0 
+			onLBSelChanged-ammolist -> populates fuze combo box selects 1st item in list or last selected itc_land_selectedFuzeIndex, also reveals/hides UI elements and sets itc_land_selectedMagIndex
+			onLBSelChanged-fuzebox	-> reveals fuze inputs and sets itc_land_selectedFuzeIndex = _this select 1
+
+		onLBSelChanged-ammolist -> set itc_land_selectedMagIndex to _this select 1
+				populate fuze combobox slect last used or 1st item in list
+			
+		
+	
+	
+	
+	
+	
+
+

@@ -1,0 +1,213 @@
+////////////////////////////////////////////////////////
+// GUI EDITOR OUTPUT START (by Toadball, v1.063, #Toloco)
+////////////////////////////////////////////////////////
+
+class available_ammo_list: ITC_LAND_RscListBox
+{
+	idc = 86001;
+
+	x = 0 * GUI_GRID_W + GUI_GRID_X;
+	y = 1 * GUI_GRID_H + GUI_GRID_Y;
+	w = 12 * GUI_GRID_W;
+	h = 4 * GUI_GRID_H;
+	colorBackground[] = {0,0,0,1};
+};
+class round_name: ITC_LAND_RscText
+{
+	idc = 86002;
+
+	text = "ROUND NAME"; //--- ToDo: Localize;
+	x = 12.5 * GUI_GRID_W + GUI_GRID_X;
+	y = 0 * GUI_GRID_H + GUI_GRID_Y;
+	w = 14.5 * GUI_GRID_W;
+	h = 1 * GUI_GRID_H;
+};
+class charge_number: ITC_LAND_RscText
+{
+	idc = 86003;
+
+	text = "CHARGE NUMBER"; //--- ToDo: Localize;
+	x = 12.5 * GUI_GRID_W + GUI_GRID_X;
+	y = 1 * GUI_GRID_H + GUI_GRID_Y;
+	w = 14.5 * GUI_GRID_W;
+	h = 1 * GUI_GRID_H;
+};
+class chargebutton_label: ITC_LAND_RscText
+{
+	idc = 1004;
+	text = "CHARGE"; //--- ToDo: Localize;
+	x = 14.5 * GUI_GRID_W + GUI_GRID_X;
+	y = 2.5 * GUI_GRID_H + GUI_GRID_Y;
+	w = 3.5 * GUI_GRID_W;
+	h = 1 * GUI_GRID_H;
+};
+class ammoChargeDown: ITC_LAND_RscButton
+{
+	idc = 1005;
+	text = "-"; //--- ToDo: Localize;
+	x = 13 * GUI_GRID_W + GUI_GRID_X;
+	y = 2.5 * GUI_GRID_H + GUI_GRID_Y;
+	w = 1 * GUI_GRID_W;
+	h = 1 * GUI_GRID_H;
+};
+class ammoChargeUp: ITC_LAND_RscButton
+{
+	idc = 1006;
+	text = "+"; //--- ToDo: Localize;
+	x = 18.5 * GUI_GRID_W + GUI_GRID_X;
+	y = 2.5 * GUI_GRID_H + GUI_GRID_Y;
+	w = 1 * GUI_GRID_W;
+	h = 1 * GUI_GRID_H;
+};
+class fuze_type: ITC_LAND_RscText
+{
+	idc = 1007;
+	text = "Fuze: "; //--- ToDo: Localize;
+	x = 12.5 * GUI_GRID_W + GUI_GRID_X;
+	y = 4 * GUI_GRID_H + GUI_GRID_Y;
+	w = 2.5 * GUI_GRID_W;
+	h = 1 * GUI_GRID_H;
+};
+class fuzeTime: ITC_LAND_RscText
+{
+	idc = 86004;
+
+	text = "Time: "; //--- ToDo: Localize;
+	x = 12.5 * GUI_GRID_W + GUI_GRID_X;
+	y = 5.5 * GUI_GRID_H + GUI_GRID_Y;
+	w = 2.5 * GUI_GRID_W;
+	h = 1 * GUI_GRID_H;
+};
+class status: ITC_LAND_RscText
+{
+	idc = 1015;
+	text = "Status: "; //--- ToDo: Localize;
+	x = 12.5 * GUI_GRID_W + GUI_GRID_X;
+	y = 8.5 * GUI_GRID_H + GUI_GRID_Y;
+	w = 3.5 * GUI_GRID_W;
+	h = 1 * GUI_GRID_H;
+};
+class statusText: ITC_LAND_RscText
+{
+	idc = 86010;
+
+	x = 15.5 * GUI_GRID_W + GUI_GRID_X;
+	y = 8.5 * GUI_GRID_H + GUI_GRID_Y;
+	w = 7.66061 * GUI_GRID_W;
+	h = 1 * GUI_GRID_H;
+};
+class RscText_1020: RscText
+{
+	idc = 86002;
+
+	text = "AVAILABLE AMMO"; //--- ToDo: Localize;
+	x = 0 * GUI_GRID_W + GUI_GRID_X;
+	y = 0 * GUI_GRID_H + GUI_GRID_Y;
+	w = 12 * GUI_GRID_W;
+	h = 1 * GUI_GRID_H;
+	colorBackground[] = {0.1,0.1,0.1,1};
+};
+class RscText_1021: RscText
+{
+	idc = 86002;
+
+	text = "AUTOLOADER QUEUE"; //--- ToDo: Localize;
+	x = 0 * GUI_GRID_W + GUI_GRID_X;
+	y = 5 * GUI_GRID_H + GUI_GRID_Y;
+	w = 12 * GUI_GRID_W;
+	h = 1 * GUI_GRID_H;
+	colorBackground[] = {0.1,0.1,0.1,1};
+};
+class RscButton_1602: RscButton
+{
+	idc = 1602;
+	text = "Add to Queue"; //--- ToDo: Localize;
+	x = 27 * GUI_GRID_W + GUI_GRID_X;
+	y = 5.5 * GUI_GRID_H + GUI_GRID_Y;
+	w = 11 * GUI_GRID_W;
+	h = 1 * GUI_GRID_H;
+	colorBackground[] = {0,0,0,1};
+	colorActive[] = {0,0,0,1};
+};
+class RscText_1000: RscText
+{
+	idc = 86004;
+
+	text = "Code: "; //--- ToDo: Localize;
+	x = 12.5 * GUI_GRID_W + GUI_GRID_X;
+	y = 7 * GUI_GRID_H + GUI_GRID_Y;
+	w = 2.5 * GUI_GRID_W;
+	h = 1 * GUI_GRID_H;
+};
+class RscText_1008: RscText
+{
+	idc = 86001;
+
+	x = 0 * GUI_GRID_W + GUI_GRID_X;
+	y = 6 * GUI_GRID_H + GUI_GRID_Y;
+	w = 12 * GUI_GRID_W;
+	h = 4 * GUI_GRID_H;
+	colorBackground[] = {0,0,0,1};
+};
+class time_textBox: RscText
+{
+	idc = 86010;
+
+	x = 15.5 * GUI_GRID_W + GUI_GRID_X;
+	y = 5.5 * GUI_GRID_H + GUI_GRID_Y;
+	w = 7.66061 * GUI_GRID_W;
+	h = 1 * GUI_GRID_H;
+	colorBackground[] = {0,0,0,1};
+};
+class fuze_comboBox: RscCombo
+{
+	idc = 2100;
+	x = 15.5 * GUI_GRID_W + GUI_GRID_X;
+	y = 4 * GUI_GRID_H + GUI_GRID_Y;
+	w = 7.5 * GUI_GRID_W;
+	h = 1 * GUI_GRID_H;
+};
+class code_textBox: RscText
+{
+	idc = 86010;
+
+	x = 15.5 * GUI_GRID_W + GUI_GRID_X;
+	y = 7 * GUI_GRID_H + GUI_GRID_Y;
+	w = 7.66061 * GUI_GRID_W;
+	h = 1 * GUI_GRID_H;
+	colorBackground[] = {0,0,0,1};
+};
+class RscButton_1600: RscButton
+{
+	idc = 1600;
+	text = "LOAD"; //--- ToDo: Localize;
+	x = 27 * GUI_GRID_W + GUI_GRID_X;
+	y = 7 * GUI_GRID_H + GUI_GRID_Y;
+	w = 11 * GUI_GRID_W;
+	h = 1 * GUI_GRID_H;
+	colorBackground[] = {0,0,0,1};
+	colorActive[] = {0,0,0,1};
+};
+class RscButton_1601: RscButton
+{
+	idc = 1601;
+	text = "FIRE"; //--- ToDo: Localize;
+	x = 27 * GUI_GRID_W + GUI_GRID_X;
+	y = 8.5 * GUI_GRID_H + GUI_GRID_Y;
+	w = 11 * GUI_GRID_W;
+	h = 1 * GUI_GRID_H;
+	colorBackground[] = {0.7,0.1,0.1,0.25};
+	colorActive[] = {0.7,0.1,0.1,0.25};
+};
+class RscText_1012: RscText
+{
+	idc = 1012;
+	x = 12 * GUI_GRID_W + GUI_GRID_X;
+	y = 0 * GUI_GRID_H + GUI_GRID_Y;
+	w = 28 * GUI_GRID_W;
+	h = 10 * GUI_GRID_H;
+	colorBackground[] = {0.1,0.1,0.1,1};
+};
+////////////////////////////////////////////////////////
+// GUI EDITOR OUTPUT END
+////////////////////////////////////////////////////////
